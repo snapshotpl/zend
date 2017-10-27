@@ -4,7 +4,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "PhpBenchmarksZend\\HelloWorld\\": "HelloWorld/src"
+            "PhpBenchmarksZend\\HelloWorld\\": "module/HelloWorld/src",
+            "PhpBenchmarksZend\\RestApi\\": "module/RestApi/src"
         }
     },
     "require": {
