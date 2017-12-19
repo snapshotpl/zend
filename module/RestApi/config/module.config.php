@@ -6,11 +6,11 @@ use PhpBenchmarksZend\RestApi\Controller\RestApiController;
 use PhpBenchmarksZend\RestApi\Factory\RestApiControllerFactory;
 use PhpBenchmarksZend\RestApi\Factory\RestApiTransformerFactory;
 use PhpBenchmarksZend\RestApi\Transformer\RestApiTransformer;
-use Zend\Router\Http\Segment;
+use Zend\Router\Http\Literal;
 
 $routes = require __DIR__ . '/../../../config/routes.php';
 $routes['phpbenchmarks'] = [
-    'type' => Segment::class,
+    'type' => Literal::class,
     'options' => [
         'route' => '/benchmark/rest',
         'defaults' => [

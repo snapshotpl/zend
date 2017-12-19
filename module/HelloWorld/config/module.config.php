@@ -2,7 +2,7 @@
 
 namespace PhpBenchmarksZend\HelloWorld;
 
-use Zend\Router\Http\Segment;
+use Zend\Router\Http\Literal;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
@@ -14,7 +14,7 @@ return [
     'router' => [
         'routes' => [
             'phpbenchmarks' => [
-                'type' => Segment::class,
+                'type' => Literal::class,
                 'options' => [
                     'route' => '/benchmark/helloworld',
                     'defaults' => [

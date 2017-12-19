@@ -1,11 +1,11 @@
 <?php
 
 use PhpBenchmarksZend\RestApi\Controller\RestApiController;
-use Zend\Router\Http\Segment;
+use Zend\Router\Http\Literal;
 
 return [
     'test-route-1' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-1',
             'defaults' => [
@@ -15,7 +15,7 @@ return [
         ],
     ],
     'test-route-2' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-2',
             'defaults' => [
@@ -25,7 +25,7 @@ return [
         ],
     ],
     'test-route-3' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-3',
             'defaults' => [
@@ -35,7 +35,7 @@ return [
         ],
     ],
     'test-route-4' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-4',
             'defaults' => [
@@ -45,7 +45,7 @@ return [
         ],
     ],
     'test-route-5' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-5',
             'defaults' => [
@@ -55,7 +55,7 @@ return [
         ],
     ],
     'test-route-6' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-6',
             'defaults' => [
@@ -65,7 +65,7 @@ return [
         ],
     ],
     'test-route-7' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-7',
             'defaults' => [
@@ -75,7 +75,7 @@ return [
         ],
     ],
     'test-route-8' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-8',
             'defaults' => [
@@ -85,7 +85,7 @@ return [
         ],
     ],
     'test-route-9' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-9',
             'defaults' => [
@@ -95,7 +95,7 @@ return [
         ],
     ],
     'test-route-10' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-10',
             'defaults' => [
@@ -105,7 +105,7 @@ return [
         ],
     ],
     'test-route-11' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-11',
             'defaults' => [
@@ -115,7 +115,7 @@ return [
         ],
     ],
     'test-route-12' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-12',
             'defaults' => [
@@ -125,7 +125,7 @@ return [
         ],
     ],
     'test-route-13' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-13',
             'defaults' => [
@@ -135,7 +135,7 @@ return [
         ],
     ],
     'test-route-14' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-14',
             'defaults' => [
@@ -145,7 +145,7 @@ return [
         ],
     ],
     'test-route-15' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-15',
             'defaults' => [
@@ -155,7 +155,7 @@ return [
         ],
     ],
     'test-route-16' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-16',
             'defaults' => [
@@ -165,7 +165,7 @@ return [
         ],
     ],
     'test-route-17' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-17',
             'defaults' => [
@@ -175,7 +175,7 @@ return [
         ],
     ],
     'test-route-18' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-18',
             'defaults' => [
@@ -185,7 +185,7 @@ return [
         ],
     ],
     'test-route-19' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-19',
             'defaults' => [
@@ -195,7 +195,7 @@ return [
         ],
     ],
     'test-route-20' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-20',
             'defaults' => [
@@ -205,7 +205,7 @@ return [
         ],
     ],
     'test-route-21' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-21',
             'defaults' => [
@@ -215,7 +215,7 @@ return [
         ],
     ],
     'test-route-22' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-22',
             'defaults' => [
@@ -225,7 +225,7 @@ return [
         ],
     ],
     'test-route-23' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-23',
             'defaults' => [
@@ -235,7 +235,7 @@ return [
         ],
     ],
     'test-route-24' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-24',
             'defaults' => [
@@ -245,7 +245,7 @@ return [
         ],
     ],
     'test-route-25' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-25',
             'defaults' => [
@@ -255,7 +255,7 @@ return [
         ],
     ],
     'test-route-26' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-26',
             'defaults' => [
@@ -265,7 +265,7 @@ return [
         ],
     ],
     'test-route-27' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-27',
             'defaults' => [
@@ -275,7 +275,7 @@ return [
         ],
     ],
     'test-route-28' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-28',
             'defaults' => [
@@ -285,7 +285,7 @@ return [
         ],
     ],
     'test-route-29' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-29',
             'defaults' => [
@@ -295,7 +295,7 @@ return [
         ],
     ],
     'test-route-30' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-30',
             'defaults' => [
@@ -305,7 +305,7 @@ return [
         ],
     ],
     'test-route-31' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-31',
             'defaults' => [
@@ -315,7 +315,7 @@ return [
         ],
     ],
     'test-route-32' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-32',
             'defaults' => [
@@ -325,7 +325,7 @@ return [
         ],
     ],
     'test-route-33' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-33',
             'defaults' => [
@@ -335,7 +335,7 @@ return [
         ],
     ],
     'test-route-34' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-34',
             'defaults' => [
@@ -345,7 +345,7 @@ return [
         ],
     ],
     'test-route-35' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-35',
             'defaults' => [
@@ -355,7 +355,7 @@ return [
         ],
     ],
     'test-route-36' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-36',
             'defaults' => [
@@ -365,7 +365,7 @@ return [
         ],
     ],
     'test-route-37' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-37',
             'defaults' => [
@@ -375,7 +375,7 @@ return [
         ],
     ],
     'test-route-38' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-38',
             'defaults' => [
@@ -385,7 +385,7 @@ return [
         ],
     ],
     'test-route-39' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-39',
             'defaults' => [
@@ -395,7 +395,7 @@ return [
         ],
     ],
     'test-route-40' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-40',
             'defaults' => [
@@ -405,7 +405,7 @@ return [
         ],
     ],
     'test-route-41' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-41',
             'defaults' => [
@@ -415,7 +415,7 @@ return [
         ],
     ],
     'test-route-42' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-42',
             'defaults' => [
@@ -425,7 +425,7 @@ return [
         ],
     ],
     'test-route-43' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-43',
             'defaults' => [
@@ -435,7 +435,7 @@ return [
         ],
     ],
     'test-route-44' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-44',
             'defaults' => [
@@ -445,7 +445,7 @@ return [
         ],
     ],
     'test-route-45' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-45',
             'defaults' => [
@@ -455,7 +455,7 @@ return [
         ],
     ],
     'test-route-46' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-46',
             'defaults' => [
@@ -465,7 +465,7 @@ return [
         ],
     ],
     'test-route-47' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-47',
             'defaults' => [
@@ -475,7 +475,7 @@ return [
         ],
     ],
     'test-route-48' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-48',
             'defaults' => [
@@ -485,7 +485,7 @@ return [
         ],
     ],
     'test-route-49' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-49',
             'defaults' => [
@@ -495,7 +495,7 @@ return [
         ],
     ],
     'test-route-50' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-50',
             'defaults' => [
@@ -505,7 +505,7 @@ return [
         ],
     ],
     'test-route-51' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-51',
             'defaults' => [
@@ -515,7 +515,7 @@ return [
         ],
     ],
     'test-route-52' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-52',
             'defaults' => [
@@ -525,7 +525,7 @@ return [
         ],
     ],
     'test-route-53' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-53',
             'defaults' => [
@@ -535,7 +535,7 @@ return [
         ],
     ],
     'test-route-54' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-54',
             'defaults' => [
@@ -545,7 +545,7 @@ return [
         ],
     ],
     'test-route-55' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-55',
             'defaults' => [
@@ -555,7 +555,7 @@ return [
         ],
     ],
     'test-route-56' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-56',
             'defaults' => [
@@ -565,7 +565,7 @@ return [
         ],
     ],
     'test-route-57' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-57',
             'defaults' => [
@@ -575,7 +575,7 @@ return [
         ],
     ],
     'test-route-58' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-58',
             'defaults' => [
@@ -585,7 +585,7 @@ return [
         ],
     ],
     'test-route-59' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-59',
             'defaults' => [
@@ -595,7 +595,7 @@ return [
         ],
     ],
     'test-route-60' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-60',
             'defaults' => [
@@ -605,7 +605,7 @@ return [
         ],
     ],
     'test-route-61' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-61',
             'defaults' => [
@@ -615,7 +615,7 @@ return [
         ],
     ],
     'test-route-62' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-62',
             'defaults' => [
@@ -625,7 +625,7 @@ return [
         ],
     ],
     'test-route-63' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-63',
             'defaults' => [
@@ -635,7 +635,7 @@ return [
         ],
     ],
     'test-route-64' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-64',
             'defaults' => [
@@ -645,7 +645,7 @@ return [
         ],
     ],
     'test-route-65' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-65',
             'defaults' => [
@@ -655,7 +655,7 @@ return [
         ],
     ],
     'test-route-66' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-66',
             'defaults' => [
@@ -665,7 +665,7 @@ return [
         ],
     ],
     'test-route-67' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-67',
             'defaults' => [
@@ -675,7 +675,7 @@ return [
         ],
     ],
     'test-route-68' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-68',
             'defaults' => [
@@ -685,7 +685,7 @@ return [
         ],
     ],
     'test-route-69' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-69',
             'defaults' => [
@@ -695,7 +695,7 @@ return [
         ],
     ],
     'test-route-70' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-70',
             'defaults' => [
@@ -705,7 +705,7 @@ return [
         ],
     ],
     'test-route-71' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-71',
             'defaults' => [
@@ -715,7 +715,7 @@ return [
         ],
     ],
     'test-route-72' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-72',
             'defaults' => [
@@ -725,7 +725,7 @@ return [
         ],
     ],
     'test-route-73' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-73',
             'defaults' => [
@@ -735,7 +735,7 @@ return [
         ],
     ],
     'test-route-74' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-74',
             'defaults' => [
@@ -745,7 +745,7 @@ return [
         ],
     ],
     'test-route-75' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-75',
             'defaults' => [
@@ -755,7 +755,7 @@ return [
         ],
     ],
     'test-route-76' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-76',
             'defaults' => [
@@ -765,7 +765,7 @@ return [
         ],
     ],
     'test-route-77' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-77',
             'defaults' => [
@@ -775,7 +775,7 @@ return [
         ],
     ],
     'test-route-78' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-78',
             'defaults' => [
@@ -785,7 +785,7 @@ return [
         ],
     ],
     'test-route-79' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-79',
             'defaults' => [
@@ -795,7 +795,7 @@ return [
         ],
     ],
     'test-route-80' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-80',
             'defaults' => [
@@ -805,7 +805,7 @@ return [
         ],
     ],
     'test-route-81' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-81',
             'defaults' => [
@@ -815,7 +815,7 @@ return [
         ],
     ],
     'test-route-82' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-82',
             'defaults' => [
@@ -825,7 +825,7 @@ return [
         ],
     ],
     'test-route-83' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-83',
             'defaults' => [
@@ -835,7 +835,7 @@ return [
         ],
     ],
     'test-route-84' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-84',
             'defaults' => [
@@ -845,7 +845,7 @@ return [
         ],
     ],
     'test-route-85' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-85',
             'defaults' => [
@@ -855,7 +855,7 @@ return [
         ],
     ],
     'test-route-86' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-86',
             'defaults' => [
@@ -865,7 +865,7 @@ return [
         ],
     ],
     'test-route-87' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-87',
             'defaults' => [
@@ -875,7 +875,7 @@ return [
         ],
     ],
     'test-route-88' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-88',
             'defaults' => [
@@ -885,7 +885,7 @@ return [
         ],
     ],
     'test-route-89' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-89',
             'defaults' => [
@@ -895,7 +895,7 @@ return [
         ],
     ],
     'test-route-90' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-90',
             'defaults' => [
@@ -905,7 +905,7 @@ return [
         ],
     ],
     'test-route-91' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-91',
             'defaults' => [
@@ -915,7 +915,7 @@ return [
         ],
     ],
     'test-route-92' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-92',
             'defaults' => [
@@ -925,7 +925,7 @@ return [
         ],
     ],
     'test-route-93' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-93',
             'defaults' => [
@@ -935,7 +935,7 @@ return [
         ],
     ],
     'test-route-94' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-94',
             'defaults' => [
@@ -945,7 +945,7 @@ return [
         ],
     ],
     'test-route-95' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-95',
             'defaults' => [
@@ -955,7 +955,7 @@ return [
         ],
     ],
     'test-route-96' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-96',
             'defaults' => [
@@ -965,7 +965,7 @@ return [
         ],
     ],
     'test-route-97' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-97',
             'defaults' => [
@@ -975,7 +975,7 @@ return [
         ],
     ],
     'test-route-98' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-98',
             'defaults' => [
@@ -985,7 +985,7 @@ return [
         ],
     ],
     'test-route-99' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-99',
             'defaults' => [
@@ -995,7 +995,7 @@ return [
         ],
     ],
     'test-route-100' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-100',
             'defaults' => [
@@ -1005,7 +1005,7 @@ return [
         ],
     ],
     'test-route-101' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-101',
             'defaults' => [
@@ -1015,7 +1015,7 @@ return [
         ],
     ],
     'test-route-102' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-102',
             'defaults' => [
@@ -1025,7 +1025,7 @@ return [
         ],
     ],
     'test-route-103' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-103',
             'defaults' => [
@@ -1035,7 +1035,7 @@ return [
         ],
     ],
     'test-route-104' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-104',
             'defaults' => [
@@ -1045,7 +1045,7 @@ return [
         ],
     ],
     'test-route-105' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-105',
             'defaults' => [
@@ -1055,7 +1055,7 @@ return [
         ],
     ],
     'test-route-106' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-106',
             'defaults' => [
@@ -1065,7 +1065,7 @@ return [
         ],
     ],
     'test-route-107' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-107',
             'defaults' => [
@@ -1075,7 +1075,7 @@ return [
         ],
     ],
     'test-route-108' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-108',
             'defaults' => [
@@ -1085,7 +1085,7 @@ return [
         ],
     ],
     'test-route-109' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-109',
             'defaults' => [
@@ -1095,7 +1095,7 @@ return [
         ],
     ],
     'test-route-110' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-110',
             'defaults' => [
@@ -1105,7 +1105,7 @@ return [
         ],
     ],
     'test-route-111' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-111',
             'defaults' => [
@@ -1115,7 +1115,7 @@ return [
         ],
     ],
     'test-route-112' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-112',
             'defaults' => [
@@ -1125,7 +1125,7 @@ return [
         ],
     ],
     'test-route-113' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-113',
             'defaults' => [
@@ -1135,7 +1135,7 @@ return [
         ],
     ],
     'test-route-114' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-114',
             'defaults' => [
@@ -1145,7 +1145,7 @@ return [
         ],
     ],
     'test-route-115' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-115',
             'defaults' => [
@@ -1155,7 +1155,7 @@ return [
         ],
     ],
     'test-route-116' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-116',
             'defaults' => [
@@ -1165,7 +1165,7 @@ return [
         ],
     ],
     'test-route-117' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-117',
             'defaults' => [
@@ -1175,7 +1175,7 @@ return [
         ],
     ],
     'test-route-118' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-118',
             'defaults' => [
@@ -1185,7 +1185,7 @@ return [
         ],
     ],
     'test-route-119' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-119',
             'defaults' => [
@@ -1195,7 +1195,7 @@ return [
         ],
     ],
     'test-route-120' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-120',
             'defaults' => [
@@ -1205,7 +1205,7 @@ return [
         ],
     ],
     'test-route-121' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-121',
             'defaults' => [
@@ -1215,7 +1215,7 @@ return [
         ],
     ],
     'test-route-122' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-122',
             'defaults' => [
@@ -1225,7 +1225,7 @@ return [
         ],
     ],
     'test-route-123' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-123',
             'defaults' => [
@@ -1235,7 +1235,7 @@ return [
         ],
     ],
     'test-route-124' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-124',
             'defaults' => [
@@ -1245,7 +1245,7 @@ return [
         ],
     ],
     'test-route-125' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-125',
             'defaults' => [
@@ -1255,7 +1255,7 @@ return [
         ],
     ],
     'test-route-126' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-126',
             'defaults' => [
@@ -1265,7 +1265,7 @@ return [
         ],
     ],
     'test-route-127' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-127',
             'defaults' => [
@@ -1275,7 +1275,7 @@ return [
         ],
     ],
     'test-route-128' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-128',
             'defaults' => [
@@ -1285,7 +1285,7 @@ return [
         ],
     ],
     'test-route-129' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-129',
             'defaults' => [
@@ -1295,7 +1295,7 @@ return [
         ],
     ],
     'test-route-130' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-130',
             'defaults' => [
@@ -1305,7 +1305,7 @@ return [
         ],
     ],
     'test-route-131' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-131',
             'defaults' => [
@@ -1315,7 +1315,7 @@ return [
         ],
     ],
     'test-route-132' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-132',
             'defaults' => [
@@ -1325,7 +1325,7 @@ return [
         ],
     ],
     'test-route-133' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-133',
             'defaults' => [
@@ -1335,7 +1335,7 @@ return [
         ],
     ],
     'test-route-134' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-134',
             'defaults' => [
@@ -1345,7 +1345,7 @@ return [
         ],
     ],
     'test-route-135' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-135',
             'defaults' => [
@@ -1355,7 +1355,7 @@ return [
         ],
     ],
     'test-route-136' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-136',
             'defaults' => [
@@ -1365,7 +1365,7 @@ return [
         ],
     ],
     'test-route-137' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-137',
             'defaults' => [
@@ -1375,7 +1375,7 @@ return [
         ],
     ],
     'test-route-138' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-138',
             'defaults' => [
@@ -1385,7 +1385,7 @@ return [
         ],
     ],
     'test-route-139' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-139',
             'defaults' => [
@@ -1395,7 +1395,7 @@ return [
         ],
     ],
     'test-route-140' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-140',
             'defaults' => [
@@ -1405,7 +1405,7 @@ return [
         ],
     ],
     'test-route-141' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-141',
             'defaults' => [
@@ -1415,7 +1415,7 @@ return [
         ],
     ],
     'test-route-142' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-142',
             'defaults' => [
@@ -1425,7 +1425,7 @@ return [
         ],
     ],
     'test-route-143' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-143',
             'defaults' => [
@@ -1435,7 +1435,7 @@ return [
         ],
     ],
     'test-route-144' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-144',
             'defaults' => [
@@ -1445,7 +1445,7 @@ return [
         ],
     ],
     'test-route-145' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-145',
             'defaults' => [
@@ -1455,7 +1455,7 @@ return [
         ],
     ],
     'test-route-146' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-146',
             'defaults' => [
@@ -1465,7 +1465,7 @@ return [
         ],
     ],
     'test-route-147' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-147',
             'defaults' => [
@@ -1475,7 +1475,7 @@ return [
         ],
     ],
     'test-route-148' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-148',
             'defaults' => [
@@ -1485,7 +1485,7 @@ return [
         ],
     ],
     'test-route-149' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-149',
             'defaults' => [
@@ -1495,7 +1495,7 @@ return [
         ],
     ],
     'test-route-150' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-150',
             'defaults' => [
@@ -1505,7 +1505,7 @@ return [
         ],
     ],
     'test-route-151' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-151',
             'defaults' => [
@@ -1515,7 +1515,7 @@ return [
         ],
     ],
     'test-route-152' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-152',
             'defaults' => [
@@ -1525,7 +1525,7 @@ return [
         ],
     ],
     'test-route-153' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-153',
             'defaults' => [
@@ -1535,7 +1535,7 @@ return [
         ],
     ],
     'test-route-154' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-154',
             'defaults' => [
@@ -1545,7 +1545,7 @@ return [
         ],
     ],
     'test-route-155' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-155',
             'defaults' => [
@@ -1555,7 +1555,7 @@ return [
         ],
     ],
     'test-route-156' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-156',
             'defaults' => [
@@ -1565,7 +1565,7 @@ return [
         ],
     ],
     'test-route-157' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-157',
             'defaults' => [
@@ -1575,7 +1575,7 @@ return [
         ],
     ],
     'test-route-158' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-158',
             'defaults' => [
@@ -1585,7 +1585,7 @@ return [
         ],
     ],
     'test-route-159' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-159',
             'defaults' => [
@@ -1595,7 +1595,7 @@ return [
         ],
     ],
     'test-route-160' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-160',
             'defaults' => [
@@ -1605,7 +1605,7 @@ return [
         ],
     ],
     'test-route-161' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-161',
             'defaults' => [
@@ -1615,7 +1615,7 @@ return [
         ],
     ],
     'test-route-162' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-162',
             'defaults' => [
@@ -1625,7 +1625,7 @@ return [
         ],
     ],
     'test-route-163' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-163',
             'defaults' => [
@@ -1635,7 +1635,7 @@ return [
         ],
     ],
     'test-route-164' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-164',
             'defaults' => [
@@ -1645,7 +1645,7 @@ return [
         ],
     ],
     'test-route-165' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-165',
             'defaults' => [
@@ -1655,7 +1655,7 @@ return [
         ],
     ],
     'test-route-166' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-166',
             'defaults' => [
@@ -1665,7 +1665,7 @@ return [
         ],
     ],
     'test-route-167' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-167',
             'defaults' => [
@@ -1675,7 +1675,7 @@ return [
         ],
     ],
     'test-route-168' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-168',
             'defaults' => [
@@ -1685,7 +1685,7 @@ return [
         ],
     ],
     'test-route-169' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-169',
             'defaults' => [
@@ -1695,7 +1695,7 @@ return [
         ],
     ],
     'test-route-170' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-170',
             'defaults' => [
@@ -1705,7 +1705,7 @@ return [
         ],
     ],
     'test-route-171' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-171',
             'defaults' => [
@@ -1715,7 +1715,7 @@ return [
         ],
     ],
     'test-route-172' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-172',
             'defaults' => [
@@ -1725,7 +1725,7 @@ return [
         ],
     ],
     'test-route-173' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-173',
             'defaults' => [
@@ -1735,7 +1735,7 @@ return [
         ],
     ],
     'test-route-174' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-174',
             'defaults' => [
@@ -1745,7 +1745,7 @@ return [
         ],
     ],
     'test-route-175' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-175',
             'defaults' => [
@@ -1755,7 +1755,7 @@ return [
         ],
     ],
     'test-route-176' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-176',
             'defaults' => [
@@ -1765,7 +1765,7 @@ return [
         ],
     ],
     'test-route-177' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-177',
             'defaults' => [
@@ -1775,7 +1775,7 @@ return [
         ],
     ],
     'test-route-178' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-178',
             'defaults' => [
@@ -1785,7 +1785,7 @@ return [
         ],
     ],
     'test-route-179' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-179',
             'defaults' => [
@@ -1795,7 +1795,7 @@ return [
         ],
     ],
     'test-route-180' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-180',
             'defaults' => [
@@ -1805,7 +1805,7 @@ return [
         ],
     ],
     'test-route-181' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-181',
             'defaults' => [
@@ -1815,7 +1815,7 @@ return [
         ],
     ],
     'test-route-182' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-182',
             'defaults' => [
@@ -1825,7 +1825,7 @@ return [
         ],
     ],
     'test-route-183' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-183',
             'defaults' => [
@@ -1835,7 +1835,7 @@ return [
         ],
     ],
     'test-route-184' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-184',
             'defaults' => [
@@ -1845,7 +1845,7 @@ return [
         ],
     ],
     'test-route-185' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-185',
             'defaults' => [
@@ -1855,7 +1855,7 @@ return [
         ],
     ],
     'test-route-186' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-186',
             'defaults' => [
@@ -1865,7 +1865,7 @@ return [
         ],
     ],
     'test-route-187' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-187',
             'defaults' => [
@@ -1875,7 +1875,7 @@ return [
         ],
     ],
     'test-route-188' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-188',
             'defaults' => [
@@ -1885,7 +1885,7 @@ return [
         ],
     ],
     'test-route-189' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-189',
             'defaults' => [
@@ -1895,7 +1895,7 @@ return [
         ],
     ],
     'test-route-190' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-190',
             'defaults' => [
@@ -1905,7 +1905,7 @@ return [
         ],
     ],
     'test-route-191' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-191',
             'defaults' => [
@@ -1915,7 +1915,7 @@ return [
         ],
     ],
     'test-route-192' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-192',
             'defaults' => [
@@ -1925,7 +1925,7 @@ return [
         ],
     ],
     'test-route-193' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-193',
             'defaults' => [
@@ -1935,7 +1935,7 @@ return [
         ],
     ],
     'test-route-194' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-194',
             'defaults' => [
@@ -1945,7 +1945,7 @@ return [
         ],
     ],
     'test-route-195' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-195',
             'defaults' => [
@@ -1955,7 +1955,7 @@ return [
         ],
     ],
     'test-route-196' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-196',
             'defaults' => [
@@ -1965,7 +1965,7 @@ return [
         ],
     ],
     'test-route-197' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-197',
             'defaults' => [
@@ -1975,7 +1975,7 @@ return [
         ],
     ],
     'test-route-198' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-198',
             'defaults' => [
@@ -1985,7 +1985,7 @@ return [
         ],
     ],
     'test-route-199' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-199',
             'defaults' => [
@@ -1995,7 +1995,7 @@ return [
         ],
     ],
     'test-route-200' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-200',
             'defaults' => [
@@ -2005,7 +2005,7 @@ return [
         ],
     ],
     'test-route-201' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-201',
             'defaults' => [
@@ -2015,7 +2015,7 @@ return [
         ],
     ],
     'test-route-202' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-202',
             'defaults' => [
@@ -2025,7 +2025,7 @@ return [
         ],
     ],
     'test-route-203' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-203',
             'defaults' => [
@@ -2035,7 +2035,7 @@ return [
         ],
     ],
     'test-route-204' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-204',
             'defaults' => [
@@ -2045,7 +2045,7 @@ return [
         ],
     ],
     'test-route-205' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-205',
             'defaults' => [
@@ -2055,7 +2055,7 @@ return [
         ],
     ],
     'test-route-206' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-206',
             'defaults' => [
@@ -2065,7 +2065,7 @@ return [
         ],
     ],
     'test-route-207' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-207',
             'defaults' => [
@@ -2075,7 +2075,7 @@ return [
         ],
     ],
     'test-route-208' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-208',
             'defaults' => [
@@ -2085,7 +2085,7 @@ return [
         ],
     ],
     'test-route-209' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-209',
             'defaults' => [
@@ -2095,7 +2095,7 @@ return [
         ],
     ],
     'test-route-210' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-210',
             'defaults' => [
@@ -2105,7 +2105,7 @@ return [
         ],
     ],
     'test-route-211' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-211',
             'defaults' => [
@@ -2115,7 +2115,7 @@ return [
         ],
     ],
     'test-route-212' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-212',
             'defaults' => [
@@ -2125,7 +2125,7 @@ return [
         ],
     ],
     'test-route-213' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-213',
             'defaults' => [
@@ -2135,7 +2135,7 @@ return [
         ],
     ],
     'test-route-214' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-214',
             'defaults' => [
@@ -2145,7 +2145,7 @@ return [
         ],
     ],
     'test-route-215' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-215',
             'defaults' => [
@@ -2155,7 +2155,7 @@ return [
         ],
     ],
     'test-route-216' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-216',
             'defaults' => [
@@ -2165,7 +2165,7 @@ return [
         ],
     ],
     'test-route-217' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-217',
             'defaults' => [
@@ -2175,7 +2175,7 @@ return [
         ],
     ],
     'test-route-218' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-218',
             'defaults' => [
@@ -2185,7 +2185,7 @@ return [
         ],
     ],
     'test-route-219' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-219',
             'defaults' => [
@@ -2195,7 +2195,7 @@ return [
         ],
     ],
     'test-route-220' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-220',
             'defaults' => [
@@ -2205,7 +2205,7 @@ return [
         ],
     ],
     'test-route-221' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-221',
             'defaults' => [
@@ -2215,7 +2215,7 @@ return [
         ],
     ],
     'test-route-222' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-222',
             'defaults' => [
@@ -2225,7 +2225,7 @@ return [
         ],
     ],
     'test-route-223' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-223',
             'defaults' => [
@@ -2235,7 +2235,7 @@ return [
         ],
     ],
     'test-route-224' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-224',
             'defaults' => [
@@ -2245,7 +2245,7 @@ return [
         ],
     ],
     'test-route-225' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-225',
             'defaults' => [
@@ -2255,7 +2255,7 @@ return [
         ],
     ],
     'test-route-226' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-226',
             'defaults' => [
@@ -2265,7 +2265,7 @@ return [
         ],
     ],
     'test-route-227' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-227',
             'defaults' => [
@@ -2275,7 +2275,7 @@ return [
         ],
     ],
     'test-route-228' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-228',
             'defaults' => [
@@ -2285,7 +2285,7 @@ return [
         ],
     ],
     'test-route-229' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-229',
             'defaults' => [
@@ -2295,7 +2295,7 @@ return [
         ],
     ],
     'test-route-230' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-230',
             'defaults' => [
@@ -2305,7 +2305,7 @@ return [
         ],
     ],
     'test-route-231' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-231',
             'defaults' => [
@@ -2315,7 +2315,7 @@ return [
         ],
     ],
     'test-route-232' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-232',
             'defaults' => [
@@ -2325,7 +2325,7 @@ return [
         ],
     ],
     'test-route-233' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-233',
             'defaults' => [
@@ -2335,7 +2335,7 @@ return [
         ],
     ],
     'test-route-234' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-234',
             'defaults' => [
@@ -2345,7 +2345,7 @@ return [
         ],
     ],
     'test-route-235' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-235',
             'defaults' => [
@@ -2355,7 +2355,7 @@ return [
         ],
     ],
     'test-route-236' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-236',
             'defaults' => [
@@ -2365,7 +2365,7 @@ return [
         ],
     ],
     'test-route-237' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-237',
             'defaults' => [
@@ -2375,7 +2375,7 @@ return [
         ],
     ],
     'test-route-238' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-238',
             'defaults' => [
@@ -2385,7 +2385,7 @@ return [
         ],
     ],
     'test-route-239' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-239',
             'defaults' => [
@@ -2395,7 +2395,7 @@ return [
         ],
     ],
     'test-route-240' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-240',
             'defaults' => [
@@ -2405,7 +2405,7 @@ return [
         ],
     ],
     'test-route-241' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-241',
             'defaults' => [
@@ -2415,7 +2415,7 @@ return [
         ],
     ],
     'test-route-242' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-242',
             'defaults' => [
@@ -2425,7 +2425,7 @@ return [
         ],
     ],
     'test-route-243' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-243',
             'defaults' => [
@@ -2435,7 +2435,7 @@ return [
         ],
     ],
     'test-route-244' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-244',
             'defaults' => [
@@ -2445,7 +2445,7 @@ return [
         ],
     ],
     'test-route-245' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-245',
             'defaults' => [
@@ -2455,7 +2455,7 @@ return [
         ],
     ],
     'test-route-246' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-246',
             'defaults' => [
@@ -2465,7 +2465,7 @@ return [
         ],
     ],
     'test-route-247' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-247',
             'defaults' => [
@@ -2475,7 +2475,7 @@ return [
         ],
     ],
     'test-route-248' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-248',
             'defaults' => [
@@ -2485,7 +2485,7 @@ return [
         ],
     ],
     'test-route-249' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-249',
             'defaults' => [
@@ -2495,7 +2495,7 @@ return [
         ],
     ],
     'test-route-250' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-250',
             'defaults' => [
@@ -2505,7 +2505,7 @@ return [
         ],
     ],
     'test-route-251' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-251',
             'defaults' => [
@@ -2515,7 +2515,7 @@ return [
         ],
     ],
     'test-route-252' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-252',
             'defaults' => [
@@ -2525,7 +2525,7 @@ return [
         ],
     ],
     'test-route-253' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-253',
             'defaults' => [
@@ -2535,7 +2535,7 @@ return [
         ],
     ],
     'test-route-254' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-254',
             'defaults' => [
@@ -2545,7 +2545,7 @@ return [
         ],
     ],
     'test-route-255' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-255',
             'defaults' => [
@@ -2555,7 +2555,7 @@ return [
         ],
     ],
     'test-route-256' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-256',
             'defaults' => [
@@ -2565,7 +2565,7 @@ return [
         ],
     ],
     'test-route-257' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-257',
             'defaults' => [
@@ -2575,7 +2575,7 @@ return [
         ],
     ],
     'test-route-258' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-258',
             'defaults' => [
@@ -2585,7 +2585,7 @@ return [
         ],
     ],
     'test-route-259' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-259',
             'defaults' => [
@@ -2595,7 +2595,7 @@ return [
         ],
     ],
     'test-route-260' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-260',
             'defaults' => [
@@ -2605,7 +2605,7 @@ return [
         ],
     ],
     'test-route-261' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-261',
             'defaults' => [
@@ -2615,7 +2615,7 @@ return [
         ],
     ],
     'test-route-262' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-262',
             'defaults' => [
@@ -2625,7 +2625,7 @@ return [
         ],
     ],
     'test-route-263' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-263',
             'defaults' => [
@@ -2635,7 +2635,7 @@ return [
         ],
     ],
     'test-route-264' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-264',
             'defaults' => [
@@ -2645,7 +2645,7 @@ return [
         ],
     ],
     'test-route-265' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-265',
             'defaults' => [
@@ -2655,7 +2655,7 @@ return [
         ],
     ],
     'test-route-266' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-266',
             'defaults' => [
@@ -2665,7 +2665,7 @@ return [
         ],
     ],
     'test-route-267' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-267',
             'defaults' => [
@@ -2675,7 +2675,7 @@ return [
         ],
     ],
     'test-route-268' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-268',
             'defaults' => [
@@ -2685,7 +2685,7 @@ return [
         ],
     ],
     'test-route-269' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-269',
             'defaults' => [
@@ -2695,7 +2695,7 @@ return [
         ],
     ],
     'test-route-270' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-270',
             'defaults' => [
@@ -2705,7 +2705,7 @@ return [
         ],
     ],
     'test-route-271' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-271',
             'defaults' => [
@@ -2715,7 +2715,7 @@ return [
         ],
     ],
     'test-route-272' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-272',
             'defaults' => [
@@ -2725,7 +2725,7 @@ return [
         ],
     ],
     'test-route-273' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-273',
             'defaults' => [
@@ -2735,7 +2735,7 @@ return [
         ],
     ],
     'test-route-274' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-274',
             'defaults' => [
@@ -2745,7 +2745,7 @@ return [
         ],
     ],
     'test-route-275' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-275',
             'defaults' => [
@@ -2755,7 +2755,7 @@ return [
         ],
     ],
     'test-route-276' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-276',
             'defaults' => [
@@ -2765,7 +2765,7 @@ return [
         ],
     ],
     'test-route-277' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-277',
             'defaults' => [
@@ -2775,7 +2775,7 @@ return [
         ],
     ],
     'test-route-278' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-278',
             'defaults' => [
@@ -2785,7 +2785,7 @@ return [
         ],
     ],
     'test-route-279' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-279',
             'defaults' => [
@@ -2795,7 +2795,7 @@ return [
         ],
     ],
     'test-route-280' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-280',
             'defaults' => [
@@ -2805,7 +2805,7 @@ return [
         ],
     ],
     'test-route-281' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-281',
             'defaults' => [
@@ -2815,7 +2815,7 @@ return [
         ],
     ],
     'test-route-282' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-282',
             'defaults' => [
@@ -2825,7 +2825,7 @@ return [
         ],
     ],
     'test-route-283' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-283',
             'defaults' => [
@@ -2835,7 +2835,7 @@ return [
         ],
     ],
     'test-route-284' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-284',
             'defaults' => [
@@ -2845,7 +2845,7 @@ return [
         ],
     ],
     'test-route-285' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-285',
             'defaults' => [
@@ -2855,7 +2855,7 @@ return [
         ],
     ],
     'test-route-286' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-286',
             'defaults' => [
@@ -2865,7 +2865,7 @@ return [
         ],
     ],
     'test-route-287' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-287',
             'defaults' => [
@@ -2875,7 +2875,7 @@ return [
         ],
     ],
     'test-route-288' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-288',
             'defaults' => [
@@ -2885,7 +2885,7 @@ return [
         ],
     ],
     'test-route-289' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-289',
             'defaults' => [
@@ -2895,7 +2895,7 @@ return [
         ],
     ],
     'test-route-290' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-290',
             'defaults' => [
@@ -2905,7 +2905,7 @@ return [
         ],
     ],
     'test-route-291' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-291',
             'defaults' => [
@@ -2915,7 +2915,7 @@ return [
         ],
     ],
     'test-route-292' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-292',
             'defaults' => [
@@ -2925,7 +2925,7 @@ return [
         ],
     ],
     'test-route-293' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-293',
             'defaults' => [
@@ -2935,7 +2935,7 @@ return [
         ],
     ],
     'test-route-294' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-294',
             'defaults' => [
@@ -2945,7 +2945,7 @@ return [
         ],
     ],
     'test-route-295' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-295',
             'defaults' => [
@@ -2955,7 +2955,7 @@ return [
         ],
     ],
     'test-route-296' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-296',
             'defaults' => [
@@ -2965,7 +2965,7 @@ return [
         ],
     ],
     'test-route-297' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-297',
             'defaults' => [
@@ -2975,7 +2975,7 @@ return [
         ],
     ],
     'test-route-298' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-298',
             'defaults' => [
@@ -2985,7 +2985,7 @@ return [
         ],
     ],
     'test-route-299' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-299',
             'defaults' => [
@@ -2995,7 +2995,7 @@ return [
         ],
     ],
     'test-route-300' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-300',
             'defaults' => [
@@ -3005,7 +3005,7 @@ return [
         ],
     ],
     'test-route-301' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-301',
             'defaults' => [
@@ -3015,7 +3015,7 @@ return [
         ],
     ],
     'test-route-302' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-302',
             'defaults' => [
@@ -3025,7 +3025,7 @@ return [
         ],
     ],
     'test-route-303' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-303',
             'defaults' => [
@@ -3035,7 +3035,7 @@ return [
         ],
     ],
     'test-route-304' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-304',
             'defaults' => [
@@ -3045,7 +3045,7 @@ return [
         ],
     ],
     'test-route-305' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-305',
             'defaults' => [
@@ -3055,7 +3055,7 @@ return [
         ],
     ],
     'test-route-306' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-306',
             'defaults' => [
@@ -3065,7 +3065,7 @@ return [
         ],
     ],
     'test-route-307' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-307',
             'defaults' => [
@@ -3075,7 +3075,7 @@ return [
         ],
     ],
     'test-route-308' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-308',
             'defaults' => [
@@ -3085,7 +3085,7 @@ return [
         ],
     ],
     'test-route-309' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-309',
             'defaults' => [
@@ -3095,7 +3095,7 @@ return [
         ],
     ],
     'test-route-310' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-310',
             'defaults' => [
@@ -3105,7 +3105,7 @@ return [
         ],
     ],
     'test-route-311' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-311',
             'defaults' => [
@@ -3115,7 +3115,7 @@ return [
         ],
     ],
     'test-route-312' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-312',
             'defaults' => [
@@ -3125,7 +3125,7 @@ return [
         ],
     ],
     'test-route-313' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-313',
             'defaults' => [
@@ -3135,7 +3135,7 @@ return [
         ],
     ],
     'test-route-314' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-314',
             'defaults' => [
@@ -3145,7 +3145,7 @@ return [
         ],
     ],
     'test-route-315' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-315',
             'defaults' => [
@@ -3155,7 +3155,7 @@ return [
         ],
     ],
     'test-route-316' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-316',
             'defaults' => [
@@ -3165,7 +3165,7 @@ return [
         ],
     ],
     'test-route-317' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-317',
             'defaults' => [
@@ -3175,7 +3175,7 @@ return [
         ],
     ],
     'test-route-318' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-318',
             'defaults' => [
@@ -3185,7 +3185,7 @@ return [
         ],
     ],
     'test-route-319' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-319',
             'defaults' => [
@@ -3195,7 +3195,7 @@ return [
         ],
     ],
     'test-route-320' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-320',
             'defaults' => [
@@ -3205,7 +3205,7 @@ return [
         ],
     ],
     'test-route-321' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-321',
             'defaults' => [
@@ -3215,7 +3215,7 @@ return [
         ],
     ],
     'test-route-322' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-322',
             'defaults' => [
@@ -3225,7 +3225,7 @@ return [
         ],
     ],
     'test-route-323' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-323',
             'defaults' => [
@@ -3235,7 +3235,7 @@ return [
         ],
     ],
     'test-route-324' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-324',
             'defaults' => [
@@ -3245,7 +3245,7 @@ return [
         ],
     ],
     'test-route-325' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-325',
             'defaults' => [
@@ -3255,7 +3255,7 @@ return [
         ],
     ],
     'test-route-326' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-326',
             'defaults' => [
@@ -3265,7 +3265,7 @@ return [
         ],
     ],
     'test-route-327' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-327',
             'defaults' => [
@@ -3275,7 +3275,7 @@ return [
         ],
     ],
     'test-route-328' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-328',
             'defaults' => [
@@ -3285,7 +3285,7 @@ return [
         ],
     ],
     'test-route-329' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-329',
             'defaults' => [
@@ -3295,7 +3295,7 @@ return [
         ],
     ],
     'test-route-330' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-330',
             'defaults' => [
@@ -3305,7 +3305,7 @@ return [
         ],
     ],
     'test-route-331' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-331',
             'defaults' => [
@@ -3315,7 +3315,7 @@ return [
         ],
     ],
     'test-route-332' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-332',
             'defaults' => [
@@ -3325,7 +3325,7 @@ return [
         ],
     ],
     'test-route-333' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-333',
             'defaults' => [
@@ -3335,7 +3335,7 @@ return [
         ],
     ],
     'test-route-334' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-334',
             'defaults' => [
@@ -3345,7 +3345,7 @@ return [
         ],
     ],
     'test-route-335' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-335',
             'defaults' => [
@@ -3355,7 +3355,7 @@ return [
         ],
     ],
     'test-route-336' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-336',
             'defaults' => [
@@ -3365,7 +3365,7 @@ return [
         ],
     ],
     'test-route-337' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-337',
             'defaults' => [
@@ -3375,7 +3375,7 @@ return [
         ],
     ],
     'test-route-338' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-338',
             'defaults' => [
@@ -3385,7 +3385,7 @@ return [
         ],
     ],
     'test-route-339' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-339',
             'defaults' => [
@@ -3395,7 +3395,7 @@ return [
         ],
     ],
     'test-route-340' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-340',
             'defaults' => [
@@ -3405,7 +3405,7 @@ return [
         ],
     ],
     'test-route-341' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-341',
             'defaults' => [
@@ -3415,7 +3415,7 @@ return [
         ],
     ],
     'test-route-342' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-342',
             'defaults' => [
@@ -3425,7 +3425,7 @@ return [
         ],
     ],
     'test-route-343' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-343',
             'defaults' => [
@@ -3435,7 +3435,7 @@ return [
         ],
     ],
     'test-route-344' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-344',
             'defaults' => [
@@ -3445,7 +3445,7 @@ return [
         ],
     ],
     'test-route-345' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-345',
             'defaults' => [
@@ -3455,7 +3455,7 @@ return [
         ],
     ],
     'test-route-346' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-346',
             'defaults' => [
@@ -3465,7 +3465,7 @@ return [
         ],
     ],
     'test-route-347' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-347',
             'defaults' => [
@@ -3475,7 +3475,7 @@ return [
         ],
     ],
     'test-route-348' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-348',
             'defaults' => [
@@ -3485,7 +3485,7 @@ return [
         ],
     ],
     'test-route-349' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-349',
             'defaults' => [
@@ -3495,7 +3495,7 @@ return [
         ],
     ],
     'test-route-350' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-350',
             'defaults' => [
@@ -3505,7 +3505,7 @@ return [
         ],
     ],
     'test-route-351' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-351',
             'defaults' => [
@@ -3515,7 +3515,7 @@ return [
         ],
     ],
     'test-route-352' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-352',
             'defaults' => [
@@ -3525,7 +3525,7 @@ return [
         ],
     ],
     'test-route-353' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-353',
             'defaults' => [
@@ -3535,7 +3535,7 @@ return [
         ],
     ],
     'test-route-354' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-354',
             'defaults' => [
@@ -3545,7 +3545,7 @@ return [
         ],
     ],
     'test-route-355' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-355',
             'defaults' => [
@@ -3555,7 +3555,7 @@ return [
         ],
     ],
     'test-route-356' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-356',
             'defaults' => [
@@ -3565,7 +3565,7 @@ return [
         ],
     ],
     'test-route-357' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-357',
             'defaults' => [
@@ -3575,7 +3575,7 @@ return [
         ],
     ],
     'test-route-358' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-358',
             'defaults' => [
@@ -3585,7 +3585,7 @@ return [
         ],
     ],
     'test-route-359' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-359',
             'defaults' => [
@@ -3595,7 +3595,7 @@ return [
         ],
     ],
     'test-route-360' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-360',
             'defaults' => [
@@ -3605,7 +3605,7 @@ return [
         ],
     ],
     'test-route-361' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-361',
             'defaults' => [
@@ -3615,7 +3615,7 @@ return [
         ],
     ],
     'test-route-362' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-362',
             'defaults' => [
@@ -3625,7 +3625,7 @@ return [
         ],
     ],
     'test-route-363' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-363',
             'defaults' => [
@@ -3635,7 +3635,7 @@ return [
         ],
     ],
     'test-route-364' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-364',
             'defaults' => [
@@ -3645,7 +3645,7 @@ return [
         ],
     ],
     'test-route-365' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-365',
             'defaults' => [
@@ -3655,7 +3655,7 @@ return [
         ],
     ],
     'test-route-366' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-366',
             'defaults' => [
@@ -3665,7 +3665,7 @@ return [
         ],
     ],
     'test-route-367' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-367',
             'defaults' => [
@@ -3675,7 +3675,7 @@ return [
         ],
     ],
     'test-route-368' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-368',
             'defaults' => [
@@ -3685,7 +3685,7 @@ return [
         ],
     ],
     'test-route-369' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-369',
             'defaults' => [
@@ -3695,7 +3695,7 @@ return [
         ],
     ],
     'test-route-370' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-370',
             'defaults' => [
@@ -3705,7 +3705,7 @@ return [
         ],
     ],
     'test-route-371' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-371',
             'defaults' => [
@@ -3715,7 +3715,7 @@ return [
         ],
     ],
     'test-route-372' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-372',
             'defaults' => [
@@ -3725,7 +3725,7 @@ return [
         ],
     ],
     'test-route-373' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-373',
             'defaults' => [
@@ -3735,7 +3735,7 @@ return [
         ],
     ],
     'test-route-374' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-374',
             'defaults' => [
@@ -3745,7 +3745,7 @@ return [
         ],
     ],
     'test-route-375' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-375',
             'defaults' => [
@@ -3755,7 +3755,7 @@ return [
         ],
     ],
     'test-route-376' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-376',
             'defaults' => [
@@ -3765,7 +3765,7 @@ return [
         ],
     ],
     'test-route-377' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-377',
             'defaults' => [
@@ -3775,7 +3775,7 @@ return [
         ],
     ],
     'test-route-378' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-378',
             'defaults' => [
@@ -3785,7 +3785,7 @@ return [
         ],
     ],
     'test-route-379' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-379',
             'defaults' => [
@@ -3795,7 +3795,7 @@ return [
         ],
     ],
     'test-route-380' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-380',
             'defaults' => [
@@ -3805,7 +3805,7 @@ return [
         ],
     ],
     'test-route-381' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-381',
             'defaults' => [
@@ -3815,7 +3815,7 @@ return [
         ],
     ],
     'test-route-382' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-382',
             'defaults' => [
@@ -3825,7 +3825,7 @@ return [
         ],
     ],
     'test-route-383' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-383',
             'defaults' => [
@@ -3835,7 +3835,7 @@ return [
         ],
     ],
     'test-route-384' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-384',
             'defaults' => [
@@ -3845,7 +3845,7 @@ return [
         ],
     ],
     'test-route-385' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-385',
             'defaults' => [
@@ -3855,7 +3855,7 @@ return [
         ],
     ],
     'test-route-386' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-386',
             'defaults' => [
@@ -3865,7 +3865,7 @@ return [
         ],
     ],
     'test-route-387' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-387',
             'defaults' => [
@@ -3875,7 +3875,7 @@ return [
         ],
     ],
     'test-route-388' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-388',
             'defaults' => [
@@ -3885,7 +3885,7 @@ return [
         ],
     ],
     'test-route-389' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-389',
             'defaults' => [
@@ -3895,7 +3895,7 @@ return [
         ],
     ],
     'test-route-390' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-390',
             'defaults' => [
@@ -3905,7 +3905,7 @@ return [
         ],
     ],
     'test-route-391' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-391',
             'defaults' => [
@@ -3915,7 +3915,7 @@ return [
         ],
     ],
     'test-route-392' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-392',
             'defaults' => [
@@ -3925,7 +3925,7 @@ return [
         ],
     ],
     'test-route-393' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-393',
             'defaults' => [
@@ -3935,7 +3935,7 @@ return [
         ],
     ],
     'test-route-394' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-394',
             'defaults' => [
@@ -3945,7 +3945,7 @@ return [
         ],
     ],
     'test-route-395' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-395',
             'defaults' => [
@@ -3955,7 +3955,7 @@ return [
         ],
     ],
     'test-route-396' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-396',
             'defaults' => [
@@ -3965,7 +3965,7 @@ return [
         ],
     ],
     'test-route-397' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-397',
             'defaults' => [
@@ -3975,7 +3975,7 @@ return [
         ],
     ],
     'test-route-398' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-398',
             'defaults' => [
@@ -3985,7 +3985,7 @@ return [
         ],
     ],
     'test-route-399' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-399',
             'defaults' => [
@@ -3995,7 +3995,7 @@ return [
         ],
     ],
     'test-route-400' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-400',
             'defaults' => [
@@ -4005,7 +4005,7 @@ return [
         ],
     ],
     'test-route-401' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-401',
             'defaults' => [
@@ -4015,7 +4015,7 @@ return [
         ],
     ],
     'test-route-402' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-402',
             'defaults' => [
@@ -4025,7 +4025,7 @@ return [
         ],
     ],
     'test-route-403' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-403',
             'defaults' => [
@@ -4035,7 +4035,7 @@ return [
         ],
     ],
     'test-route-404' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-404',
             'defaults' => [
@@ -4045,7 +4045,7 @@ return [
         ],
     ],
     'test-route-405' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-405',
             'defaults' => [
@@ -4055,7 +4055,7 @@ return [
         ],
     ],
     'test-route-406' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-406',
             'defaults' => [
@@ -4065,7 +4065,7 @@ return [
         ],
     ],
     'test-route-407' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-407',
             'defaults' => [
@@ -4075,7 +4075,7 @@ return [
         ],
     ],
     'test-route-408' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-408',
             'defaults' => [
@@ -4085,7 +4085,7 @@ return [
         ],
     ],
     'test-route-409' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-409',
             'defaults' => [
@@ -4095,7 +4095,7 @@ return [
         ],
     ],
     'test-route-410' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-410',
             'defaults' => [
@@ -4105,7 +4105,7 @@ return [
         ],
     ],
     'test-route-411' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-411',
             'defaults' => [
@@ -4115,7 +4115,7 @@ return [
         ],
     ],
     'test-route-412' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-412',
             'defaults' => [
@@ -4125,7 +4125,7 @@ return [
         ],
     ],
     'test-route-413' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-413',
             'defaults' => [
@@ -4135,7 +4135,7 @@ return [
         ],
     ],
     'test-route-414' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-414',
             'defaults' => [
@@ -4145,7 +4145,7 @@ return [
         ],
     ],
     'test-route-415' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-415',
             'defaults' => [
@@ -4155,7 +4155,7 @@ return [
         ],
     ],
     'test-route-416' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-416',
             'defaults' => [
@@ -4165,7 +4165,7 @@ return [
         ],
     ],
     'test-route-417' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-417',
             'defaults' => [
@@ -4175,7 +4175,7 @@ return [
         ],
     ],
     'test-route-418' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-418',
             'defaults' => [
@@ -4185,7 +4185,7 @@ return [
         ],
     ],
     'test-route-419' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-419',
             'defaults' => [
@@ -4195,7 +4195,7 @@ return [
         ],
     ],
     'test-route-420' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-420',
             'defaults' => [
@@ -4205,7 +4205,7 @@ return [
         ],
     ],
     'test-route-421' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-421',
             'defaults' => [
@@ -4215,7 +4215,7 @@ return [
         ],
     ],
     'test-route-422' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-422',
             'defaults' => [
@@ -4225,7 +4225,7 @@ return [
         ],
     ],
     'test-route-423' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-423',
             'defaults' => [
@@ -4235,7 +4235,7 @@ return [
         ],
     ],
     'test-route-424' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-424',
             'defaults' => [
@@ -4245,7 +4245,7 @@ return [
         ],
     ],
     'test-route-425' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-425',
             'defaults' => [
@@ -4255,7 +4255,7 @@ return [
         ],
     ],
     'test-route-426' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-426',
             'defaults' => [
@@ -4265,7 +4265,7 @@ return [
         ],
     ],
     'test-route-427' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-427',
             'defaults' => [
@@ -4275,7 +4275,7 @@ return [
         ],
     ],
     'test-route-428' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-428',
             'defaults' => [
@@ -4285,7 +4285,7 @@ return [
         ],
     ],
     'test-route-429' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-429',
             'defaults' => [
@@ -4295,7 +4295,7 @@ return [
         ],
     ],
     'test-route-430' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-430',
             'defaults' => [
@@ -4305,7 +4305,7 @@ return [
         ],
     ],
     'test-route-431' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-431',
             'defaults' => [
@@ -4315,7 +4315,7 @@ return [
         ],
     ],
     'test-route-432' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-432',
             'defaults' => [
@@ -4325,7 +4325,7 @@ return [
         ],
     ],
     'test-route-433' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-433',
             'defaults' => [
@@ -4335,7 +4335,7 @@ return [
         ],
     ],
     'test-route-434' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-434',
             'defaults' => [
@@ -4345,7 +4345,7 @@ return [
         ],
     ],
     'test-route-435' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-435',
             'defaults' => [
@@ -4355,7 +4355,7 @@ return [
         ],
     ],
     'test-route-436' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-436',
             'defaults' => [
@@ -4365,7 +4365,7 @@ return [
         ],
     ],
     'test-route-437' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-437',
             'defaults' => [
@@ -4375,7 +4375,7 @@ return [
         ],
     ],
     'test-route-438' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-438',
             'defaults' => [
@@ -4385,7 +4385,7 @@ return [
         ],
     ],
     'test-route-439' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-439',
             'defaults' => [
@@ -4395,7 +4395,7 @@ return [
         ],
     ],
     'test-route-440' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-440',
             'defaults' => [
@@ -4405,7 +4405,7 @@ return [
         ],
     ],
     'test-route-441' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-441',
             'defaults' => [
@@ -4415,7 +4415,7 @@ return [
         ],
     ],
     'test-route-442' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-442',
             'defaults' => [
@@ -4425,7 +4425,7 @@ return [
         ],
     ],
     'test-route-443' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-443',
             'defaults' => [
@@ -4435,7 +4435,7 @@ return [
         ],
     ],
     'test-route-444' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-444',
             'defaults' => [
@@ -4445,7 +4445,7 @@ return [
         ],
     ],
     'test-route-445' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-445',
             'defaults' => [
@@ -4455,7 +4455,7 @@ return [
         ],
     ],
     'test-route-446' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-446',
             'defaults' => [
@@ -4465,7 +4465,7 @@ return [
         ],
     ],
     'test-route-447' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-447',
             'defaults' => [
@@ -4475,7 +4475,7 @@ return [
         ],
     ],
     'test-route-448' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-448',
             'defaults' => [
@@ -4485,7 +4485,7 @@ return [
         ],
     ],
     'test-route-449' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-449',
             'defaults' => [
@@ -4495,7 +4495,7 @@ return [
         ],
     ],
     'test-route-450' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-450',
             'defaults' => [
@@ -4505,7 +4505,7 @@ return [
         ],
     ],
     'test-route-451' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-451',
             'defaults' => [
@@ -4515,7 +4515,7 @@ return [
         ],
     ],
     'test-route-452' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-452',
             'defaults' => [
@@ -4525,7 +4525,7 @@ return [
         ],
     ],
     'test-route-453' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-453',
             'defaults' => [
@@ -4535,7 +4535,7 @@ return [
         ],
     ],
     'test-route-454' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-454',
             'defaults' => [
@@ -4545,7 +4545,7 @@ return [
         ],
     ],
     'test-route-455' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-455',
             'defaults' => [
@@ -4555,7 +4555,7 @@ return [
         ],
     ],
     'test-route-456' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-456',
             'defaults' => [
@@ -4565,7 +4565,7 @@ return [
         ],
     ],
     'test-route-457' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-457',
             'defaults' => [
@@ -4575,7 +4575,7 @@ return [
         ],
     ],
     'test-route-458' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-458',
             'defaults' => [
@@ -4585,7 +4585,7 @@ return [
         ],
     ],
     'test-route-459' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-459',
             'defaults' => [
@@ -4595,7 +4595,7 @@ return [
         ],
     ],
     'test-route-460' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-460',
             'defaults' => [
@@ -4605,7 +4605,7 @@ return [
         ],
     ],
     'test-route-461' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-461',
             'defaults' => [
@@ -4615,7 +4615,7 @@ return [
         ],
     ],
     'test-route-462' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-462',
             'defaults' => [
@@ -4625,7 +4625,7 @@ return [
         ],
     ],
     'test-route-463' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-463',
             'defaults' => [
@@ -4635,7 +4635,7 @@ return [
         ],
     ],
     'test-route-464' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-464',
             'defaults' => [
@@ -4645,7 +4645,7 @@ return [
         ],
     ],
     'test-route-465' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-465',
             'defaults' => [
@@ -4655,7 +4655,7 @@ return [
         ],
     ],
     'test-route-466' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-466',
             'defaults' => [
@@ -4665,7 +4665,7 @@ return [
         ],
     ],
     'test-route-467' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-467',
             'defaults' => [
@@ -4675,7 +4675,7 @@ return [
         ],
     ],
     'test-route-468' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-468',
             'defaults' => [
@@ -4685,7 +4685,7 @@ return [
         ],
     ],
     'test-route-469' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-469',
             'defaults' => [
@@ -4695,7 +4695,7 @@ return [
         ],
     ],
     'test-route-470' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-470',
             'defaults' => [
@@ -4705,7 +4705,7 @@ return [
         ],
     ],
     'test-route-471' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-471',
             'defaults' => [
@@ -4715,7 +4715,7 @@ return [
         ],
     ],
     'test-route-472' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-472',
             'defaults' => [
@@ -4725,7 +4725,7 @@ return [
         ],
     ],
     'test-route-473' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-473',
             'defaults' => [
@@ -4735,7 +4735,7 @@ return [
         ],
     ],
     'test-route-474' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-474',
             'defaults' => [
@@ -4745,7 +4745,7 @@ return [
         ],
     ],
     'test-route-475' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-475',
             'defaults' => [
@@ -4755,7 +4755,7 @@ return [
         ],
     ],
     'test-route-476' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-476',
             'defaults' => [
@@ -4765,7 +4765,7 @@ return [
         ],
     ],
     'test-route-477' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-477',
             'defaults' => [
@@ -4775,7 +4775,7 @@ return [
         ],
     ],
     'test-route-478' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-478',
             'defaults' => [
@@ -4785,7 +4785,7 @@ return [
         ],
     ],
     'test-route-479' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-479',
             'defaults' => [
@@ -4795,7 +4795,7 @@ return [
         ],
     ],
     'test-route-480' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-480',
             'defaults' => [
@@ -4805,7 +4805,7 @@ return [
         ],
     ],
     'test-route-481' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-481',
             'defaults' => [
@@ -4815,7 +4815,7 @@ return [
         ],
     ],
     'test-route-482' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-482',
             'defaults' => [
@@ -4825,7 +4825,7 @@ return [
         ],
     ],
     'test-route-483' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-483',
             'defaults' => [
@@ -4835,7 +4835,7 @@ return [
         ],
     ],
     'test-route-484' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-484',
             'defaults' => [
@@ -4845,7 +4845,7 @@ return [
         ],
     ],
     'test-route-485' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-485',
             'defaults' => [
@@ -4855,7 +4855,7 @@ return [
         ],
     ],
     'test-route-486' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-486',
             'defaults' => [
@@ -4865,7 +4865,7 @@ return [
         ],
     ],
     'test-route-487' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-487',
             'defaults' => [
@@ -4875,7 +4875,7 @@ return [
         ],
     ],
     'test-route-488' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-488',
             'defaults' => [
@@ -4885,7 +4885,7 @@ return [
         ],
     ],
     'test-route-489' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-489',
             'defaults' => [
@@ -4895,7 +4895,7 @@ return [
         ],
     ],
     'test-route-490' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-490',
             'defaults' => [
@@ -4905,7 +4905,7 @@ return [
         ],
     ],
     'test-route-491' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-491',
             'defaults' => [
@@ -4915,7 +4915,7 @@ return [
         ],
     ],
     'test-route-492' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-492',
             'defaults' => [
@@ -4925,7 +4925,7 @@ return [
         ],
     ],
     'test-route-493' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-493',
             'defaults' => [
@@ -4935,7 +4935,7 @@ return [
         ],
     ],
     'test-route-494' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-494',
             'defaults' => [
@@ -4945,7 +4945,7 @@ return [
         ],
     ],
     'test-route-495' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-495',
             'defaults' => [
@@ -4955,7 +4955,7 @@ return [
         ],
     ],
     'test-route-496' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-496',
             'defaults' => [
@@ -4965,7 +4965,7 @@ return [
         ],
     ],
     'test-route-497' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-497',
             'defaults' => [
@@ -4975,7 +4975,7 @@ return [
         ],
     ],
     'test-route-498' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-498',
             'defaults' => [
@@ -4985,7 +4985,7 @@ return [
         ],
     ],
     'test-route-499' => [
-        'type' => Segment::class,
+        'type' => Literal::class,
         'options' => [
             'route' => '/benchmark/test-route-499',
             'defaults' => [
